@@ -1,13 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 .App {
     text-align: center;
 }
-
-
 
 .App-header {
     background-color: #222;

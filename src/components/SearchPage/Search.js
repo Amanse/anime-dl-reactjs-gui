@@ -26,6 +26,7 @@ class SearchElement extends Component {
             <div>
                 <input
                     type="text"
+                    className="border-2"
                     onChange={(e) => this.setState({ query: e.target.value })}
                 />
                 <select
