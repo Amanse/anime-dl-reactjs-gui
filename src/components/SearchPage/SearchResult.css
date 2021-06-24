@@ -1,0 +1,13 @@
+ul.results {
+    display: block;
+}
+
+ul.results > a > li {
+    float: left;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+    vertical-align: top;
+    width: 18.4%;
+}
