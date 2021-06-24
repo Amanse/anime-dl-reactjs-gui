@@ -1,3 +1,6 @@
+# What is this?
+Nothing at the moment, so dont touch it.
+
 ## Install
 
 You’ll need to have Python >= 3.6, Eel, pyinstaller.
