@@ -1,20 +1,19 @@
 {
-  "name": "create-react-app-with-eel",
+  "name": "anime-dl-gui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
     "start:js": "react-scripts start",
     "build:js": "react-scripts build",
-    "start:eel": "python3 index.py --develop",
-    "build:eel":
-      "python3 -m eel index.py build --onefile --noconsole --name react-eel-app",
+    "start:eel": "python index.py --develop",
+    "build:eel": "python -m eel index.py build --onefile --noconsole --name \"Anime DL\"",
     "clean:build": "rm -rf build dist",
-
     "start": "npm-run-all -p start:*",
     "build": "npm-run-all clean:build build:*",
     "test": "react-scripts test --env=jsdom",

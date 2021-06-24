@@ -1,32 +1,48 @@
-# React Eel GUI App
-
-![](./sample.png)
-
 ## Install
 
 You’ll need to have Python >= 3.6, Eel, pyinstaller.
 
+# Python dependencies
+
 ```
-$ pip3 install eel
-$ pip3 install pyinstaller
+$ pip install eel
+$ pip install pyinstaller
+```
+
+# Project dependencies (run inside project folder)
+
+```
+$ npm i
 ```
 
 ## Develop on Browser
 
 ```
-$ yarn start:js
+$ npm run start
 ```
 
-## Develop on GUI
+## Launch both python and react servers
 
 ```
-$ yarn start
+$ nom run start
+```
+
+# Launch just the python server
+
+```
+$ npm run start:eel
+```
+
+# Launch just the react server
+
+```
+$ npm run start:js
 ```
 
 ## Build as GUI App
 
 ```
-$ yarn build
+$ npm run build
 ```
 
 check `dist/react-eel-app`
