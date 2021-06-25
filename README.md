@@ -27,7 +27,7 @@ $ npm run start
 ## Launch both python and react servers
 
 ```
-$ nom run start
+$ npm run start
 ```
 
 # Launch just the python server
